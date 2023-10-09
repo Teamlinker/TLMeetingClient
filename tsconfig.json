@@ -4,7 +4,7 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "noImplicitUseStrict":true,
-    "sourceMap": true,
+    "sourceMap": false,
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
@@ -18,8 +18,9 @@
     "noEmit": true,
     "noImplicitOverride": true,
     "noImplicitThis": true,
-    "ignoreDeprecations": "5.0"
+    "ignoreDeprecations": "5.0",
+    "outDir": "./dist"
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "include": ["src/components/meeting/*.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

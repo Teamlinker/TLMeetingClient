@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build && cp -f ./dist/* ./npm",
+    "build": "vue-tsc && vite build && rm -f ./dist/*js && tsc --noEmit false && cp -f ./dist/* ./npm",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -1,8 +1,8 @@
 {
   "name": "tlmeetingclient",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple video meeting library based on node.js and typescript",
-  "main": "TLMeetingClient.js",
+  "main": "client.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
